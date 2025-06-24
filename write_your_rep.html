@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Write Your Representative</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="letter_template.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Write Your Representative</h1>
+        <nav><a href="index.html">← Back to Home</a></nav>
+    </header>
+    <main>
+        <section>
+            <label for="law-select">Select a Law:</label>
+            <select id="law-select">
+                <option value="" selected disabled>Select a vulnerable law</option>
+                <option value="insurrection_act">Insurrection Act</option>
+                <option value="pardon_power">Pardon Power</option>
+                <option value="appointments_clause">Appointments Clause</option>
+                <option value="emergency_powers">Emergency Powers</option>
+                <option value="hatch_act">Hatch Act</option>
+                <option value="presidential_records_act">Presidential Records Act</option>
+            </select>
+        </section>
+        <section>
+            <h2>Letter Template</h2>
+            <textarea id="letter-box" rows="20" style="width:100%;">Please select a law above to load a suggested letter.</textarea>
+        </section>
+    </main>
+</body>
+</html>
